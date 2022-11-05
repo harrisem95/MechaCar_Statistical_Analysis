@@ -18,45 +18,25 @@ When looking at the total_summary table, the variance is 62.29356 which is well 
 ![Lot Summary](/Resources/lot_summary_suspension_coil.png) 
 
 
-### Top Ending Locations
+ ## T-Tests on Suspension Coils
 
-![Table Two](/Resources/Story_2.png) 
+### Results
 
-The most popular ending locations are similar to the starting locations, but are more evenly spread out throughout NYC.
-
-### Checkout Times for Users
-
-![Table Three](/Resources/Story_3.png) 
-
-Most rides are under 30 minutes. It seems as though people are mostly using the bikes to get from one place to anohter, and not for long bike rides for fun.
-
-### Checkout Times by Gender
-
-![Table Four](/Resources/Story_4.png) 
-
-Men use the citybikes more often and for longer than other genders.
-
-### Trips by Weekday per Hour
-
-![Table Five](/Resources/Story_5.png) 
-
-The most popular times to use the bike during the week are before and after work hours. The weekend times are more evenly spread out. People are most likely using these bikes to commute to and from work which is why these are the most popular times. Without work, the weekends have much more spaced out usage.
-
-### Trips by Gender (Weekday per Hour)
-
-![Table Six](/Resources/Story_6.png) 
-
-Men use the bikes more than women before and after work hours during the week.
-
-### User Trips by Gender by Weekday
-
-![Table Seven](/Resources/Story_7.png) 
-
-Men subscribers use the bikes more than women subscribers. The most popular days for men to use the bikes are Thursday and Friday.
-
-## Results
-
-### Conclusions 
-The conclusions I draw on this data is that bikesharing is much more popular among men and subscribers. The most popular times to ride bikes are during rush hour and this data leaves me to believe that people are using these bikes to commute to work. From this data, I would recommend that citibike try to market more to women in order to increase their profits and market share. Two other visualizations I would create would be the starting and ending locations by gender to see if there are more popular areas that women like to use the bike. Citibike can use this information to effectively market this group of customers.
+![Total T Test](/Resources/total_t_test.png)  <br />
+The p-value is greater than 0.5, meaning that the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
 
 
+![Lot 1 T Test](/Resources/lot_1_t_test.png)  <br />
+The p-value is greater than 0.5, meaning that the PSI of lot 1 is not statistically different from the population mean of 1,500 pounds per square inch.
+
+
+![Lot 2 T Test](/Resources/lot_2_t_test.png)  <br />
+The p-value is greater than 0.5, meaning that the PSI of lot 2 is not statistically different from the population mean of 1,500 pounds per square inch.
+
+![Lot 3 T Test](/Resources/lot_3_t_test.png)  <br />
+The p-value is less than 0.5, meaning that the PSI of lot 3 is  statistically different from the population mean of 1,500 pounds per square inch.
+
+
+## Study Design: MechaCar vs Competition
+
+I will be creating a statistical study that can quantify how MechaCars performs against competition. I will test mechacars against competition in safety rating, fuel efficiency, reselling price, horsepower, maintenance costs, and current selling price. My null hypothesis is that mechacar is priced correctly based on it's performance compared to competition. My alternate hypothesis is that mechacar is priced incorrectly based on it's performance compared to competition. I would use multiple linear regression to see which factors contribute the highest correlation with the selling price. I would need the data from mechacars performance as well as the data from competitors to perform this analysis.
