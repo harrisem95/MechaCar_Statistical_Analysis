@@ -8,15 +8,15 @@ The vehicle_length and ground_clearance provide a non-random amount of variance 
 ![MechaCar Summary](/Resources/lm_summary_mechacar.png) 
 
 
+## Summary Statistics on Suspension Coils
 
+### Results
+When looking at the total_summary table, the variance is 62.29356 which is well below the 100 benchmark. However, looking more deeply at the data grouping the data by lot number, we can see that lot 3 has a variance of 170.2861224 which is significantly higher than the 100 pound variance benchmark and this lot i s causing the largest amount of variance within the data.
 
-## Results
+![Total Summary](/Resources/total_summary_suspension_coil.png)  <br />
 
-### Top Starting Locations
+![Lot Summary](/Resources/lot_summary_suspension_coil.png) 
 
-
-
-The most popular starting locations are lower than midtown in Manhattan. The westside is a more popular starting location than the east side.
 
 ### Top Ending Locations
 
